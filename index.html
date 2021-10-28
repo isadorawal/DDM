@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link rel="stylesheet" href="menu.css">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Só de Cenoura Garçom</title>
+    <link rel="stylesheet" href="icons/material.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-	<input type="radio"name="opcao" id="opcao-bolos" checked>
-	<label for="opcao-bolos">Bolos</label>
+    <div class="valign-wrapper yellow darken-4 white-text">
+        <h5 class="titulo"> So cenoura</h5>
+        <div>
+        <i class="material-icons waves-effect waves-light waves-circle">more_vert</i>
+        </div>
+    </div>
 
-	<input type="radio" name="opcao" id="opcao-bebidas">
-	<label for="opcao-bebidas">Bebidas</label>
 
-	<div class="container-menus">
-		<img src="imagens/menu-bolos.png" alt="Nossos Bolos" id="menu-bolos" class="menu">
-		<img src="imagens/menu-bebidas.png" alt="As Bebidas" id="menu-bebidas" class="menu">
-	</div>
+    <ul class="tabs yellow darken-4">
+        <li class="tab"><a href="#bolos" class="white-text waves-effect waves-light">Bolos</a></li>
+        <li class="tab"><a href="#bebidas" class="white-text waves-effect waves-light">Bebidas</a></li>
+    </ul>
+    <div id="bolos" class="section">
+        <div class="collection">
+            <a class="collection-item waves-effect black-text">Só de Cenoura</a>
+            <a class="collection-item waves-effect black-text"">Com Nutela</a>
+            <a class="collection-item waves-effect black-text"">De Brigadeiro</a>
+            <a class="collection-item waves-effect black-text"">Açucarado</a>
+        </div>
+    </div>
+    <div id="bebidas" class="section">
+        <h6 class="container brown-text">Cafés</h6>
+        <div class="collection">
+            <a class="collection-item waves-effect black-text">Expresso</a>
+            <a class="collection-item waves-effect black-text">Capuccino</a>
+            <a class="collection-item waves-effect black-text">Mocachino</a>
+        </div>
+        <h6 class="container brown-text">Refrigerantes</h6>
+        <div class="collection">
+            <a class="collection-item waves-effect black-text">Soda</a>
+            <a class="collection-item waves-effect black-text">Guaraná</a>
+            <a class="collection-item waves-effect black-text">Coca Cola</a>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
 </body>
 </html>
